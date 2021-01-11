@@ -9,8 +9,8 @@
 |  linux 执行sh文件权限不够  |  chmod  a+x  文件名  |
 |  查询进程  |  ps -ef \|grep 进程名 |  ps -ef \|grep redis |
 |  linux 安装redis  |    |   |  参考网址：https://www.cnblogs.com/hunanzp/p/12304622.html  |
-|  复制文件夹：  |  cp -r dir1 dir2  |
-
+|  停止redis  |  ./bin/redis-cli shutdown  |
+|  使用配置文件启动redis  |  ./bin/redis-server /usr/local/redis/etc/redis.conf  |
 
 
 
