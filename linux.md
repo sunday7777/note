@@ -11,7 +11,7 @@
 |  linux 安装redis  |    |   |  参考网址：https://www.cnblogs.com/hunanzp/p/12304622.html  |
 |  停止redis  |  ./bin/redis-cli shutdown  |
 |  使用配置文件启动redis  |  ./bin/redis-server /usr/local/redis/etc/redis.conf  |
-
+|  解压zip  |  unzip filename.zip  |
 
 
 
