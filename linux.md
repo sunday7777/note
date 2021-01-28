@@ -16,4 +16,5 @@
 |  开放防火墙的指定端口  |  firewall-cmd --zone=public --add-port=80/tcp --permanent  |
 |  重启防火墙  |  systemctl reload firewalld  |
 |  复制文件夹  |  cp -r dir1 dir2  |
+|  强制杀死进程 |  kill -9 pid  |
 
