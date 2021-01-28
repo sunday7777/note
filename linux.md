@@ -12,6 +12,8 @@
 |  停止redis  |  ./bin/redis-cli shutdown  |
 |  使用配置文件启动redis  |  ./bin/redis-server /usr/local/redis/etc/redis.conf  |
 |  解压zip  |  unzip filename.zip  |
-
-
+|  查看防火墙已经开放的端口  |  firewall-cmd --list-ports  |
+|  开放防火墙的指定端口  |  firewall-cmd --zone=public --add-port=80/tcp --permanent  |
+|  重启防火墙  |  systemctl reload firewalld  |
+|  复制文件夹  |  cp -r dir1 dir2  |
 
