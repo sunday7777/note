@@ -17,6 +17,7 @@
 |  这个是远程仓库拉取数据到本地仓库  |  git pull  |
 |  将本地代码提交到远程服务器  |  git push  |
 |  查看本地分支 |  git branch  |
+|  切换指定分支 |  git checkout 分支名称  |
 |  创建并切换指定分支 |  git checkout -b 分支名称  |
 |  合并指定分支到当前分支 |  git merge 分支名称  |
 |  查看本地和远程仓库的所有分支 |  git branch -a  |
