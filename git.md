@@ -18,10 +18,13 @@
 |  将本地代码提交到远程服务器  |  git push  |
 |  查看本地分支 |  git branch  |
 |  切换指定分支 |  git checkout 分支名称  |
+|  创建分支,继续在当前分支 |  git branch 分支名称  |
 |  创建并切换指定分支 |  git checkout -b 分支名称  |
 |  合并指定分支到当前分支 |  git merge 分支名称  |
 |  查看本地和远程仓库的所有分支 |  git branch -a  |
 |  获取远程服务器的指定分支 |  git pull <远程库名> <远程分支名>:<本地分支名>  |   取回远程库中的online分支，与本地的online分支进行merge，要写成：git pull origin online:online |
+|  合并分支 |  1、切换到接受修改的分支。  2、git merge 要合并的分支名称  |
+|  解决合并分支所产生的冲突 |  1、编辑冲突文件，删除git添加的特殊符号。并把代码修改满意的程度。 2、使用git add 命令把冲突解决完成后的文件提交到暂存区。 3、使用git commit 命令把合并结果提交到本地仓库，结束合并。 |
 
 
 ### git工作流程
